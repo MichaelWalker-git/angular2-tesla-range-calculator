@@ -1,6 +1,7 @@
 <form class="app-tesla-battery" [formGroup]="tesla">
   <h1>{{ title }}</h1>
   <app-tesla-car [wheelsize]="tesla.get('config.wheels').value"></app-tesla-car>
+  <app-tesla-stats [stats]="stats"></app-tesla-stats>
 
   <div class="tesla-battery__notice">
     <p>

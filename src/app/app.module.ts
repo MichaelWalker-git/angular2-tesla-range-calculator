@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { TeslaBatteryComponent } from './containers/tesla-battery/tesla-battery.component';
 import { BatteryService } from './containers/tesla-battery/tesla-battery.service';
 import { TeslaCarComponent } from './components/tesla-car/tesla-car.component';
+import { TeslaStatsComponent } from './components/tesla-stats/tesla-stats.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TeslaBatteryComponent,
-    TeslaCarComponent
+    TeslaCarComponent,
+    TeslaStatsComponent
   ],
   imports: [
     BrowserModule,
