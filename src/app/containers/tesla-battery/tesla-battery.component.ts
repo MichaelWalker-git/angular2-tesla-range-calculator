@@ -18,7 +18,7 @@ export class TeslaBatteryComponent implements OnInit {
         speed: 55,
         temperature: 20,
         climate: true,
-        wheeels: 19
+        wheels: 19
       })
     })
   }
