@@ -4,8 +4,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { TeslaBatteryComponent } from './tesla-battery/tesla-battery.component';
-import { BatteryService } from './tesla-battery/tesla-battery.service';
+import { TeslaBatteryComponent } from './components/tesla-battery/tesla-battery.component';
+import { BatteryService } from './components/tesla-battery/tesla-battery.service';
 
 @NgModule({
   declarations: [
