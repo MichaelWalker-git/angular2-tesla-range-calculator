@@ -23,8 +23,9 @@
       <tesla-climate
         [limit]="tesla.get('config.temperature').value > 10"
         formControlName="climate">
-      </tesla-climate>git
+      </tesla-climate>
     </div>
+    <tesla-wheels formControlName="wheels"></tesla-wheels>
   </div>
   <div class="tesla-battery__notice">
     <p>
