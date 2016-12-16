@@ -1,4 +1,9 @@
 # AngularTeslaRangeCalculator
+Preview of Product:
+![final](https://cloud.githubusercontent.com/assets/11032490/21253834/4ae9050a-c316-11e6-8d73-12bcbdc086d4.gif)
+
+Rebuild of Tesla' Battery Range Calculator
+
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.22-1.
 
